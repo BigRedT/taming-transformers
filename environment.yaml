@@ -2,6 +2,7 @@ name: taming
 channels:
   - pytorch
   - defaults
+  - conda-forge
 dependencies:
   - python=3.8.5
   - pip=20.3
@@ -9,6 +10,7 @@ dependencies:
   - pytorch=1.7.0
   - torchvision=0.8.1
   - numpy=1.19.2
+  - tango==0.10.1
   - pip:
     - albumentations==0.4.3
     - opencv-python==4.1.2.30
